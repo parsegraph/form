@@ -1,4 +1,5 @@
 import generateID from "parsegraph-generateid";
+import findSelected from './dom';
 
 export default function Form(name) {
   // Save the form name.
@@ -171,7 +172,7 @@ Form.prototype.addFieldElement = function(
     });
 
     fieldElement.addEventListener('change', ()=>{
-      const selected = parsegraph_findSelected(fieldElement);
+      const selected = findSelected(fieldElement);
       if (selected == null) {
         this.value(field.name, null, 'click');
         return;
