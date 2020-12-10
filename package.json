@@ -1,8 +1,8 @@
 {
-  "name": "parsegraph-TODO-PACKAGE-NAME",
+  "name": "parsegraph-form",
   "version": "1.4.0",
-  "description": "TODO-DESCRIPTION",
-  "main": "dist/TODO-PACKAGE-NAME.js",
+  "description": "Form builder",
+  "main": "dist/form.js",
   "scripts": {
     "coverage": "nyc npm run test",
     "test": "mocha -r @babel/register -r jsdom-global/register --recursive",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/parsegraph/TODO-PACKAGE-NAME.git"
+    "url": "git+ssh://git@github.com/parsegraph/form.git"
   },
   "author": "Rainback, Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/parsegraph/TODO-PACKAGE-NAME/issues"
+    "url": "https://github.com/parsegraph/form/issues"
   },
-  "homepage": "https://github.com/parsegraph/TODO-PACKAGE-NAME#readme",
+  "homepage": "https://github.com/parsegraph/form#readme",
   "nyc": {
     "extends": "@istanbuljs/nyc-config-babel",
     "reporter": [
