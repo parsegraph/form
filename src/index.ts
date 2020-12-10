@@ -1,4 +1,3 @@
-// TODO Implement this.
-export default function todo() {
-  return 42;
-}
+import Form from './Form';
+
+export default Form;
